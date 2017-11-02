@@ -1,6 +1,6 @@
 class Temperature
 
-  def initialize
-  end
-  
+  def initialize(hash)
+    @temperature = hash
+  end  
 end
